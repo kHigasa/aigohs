@@ -12,7 +12,8 @@
     "clean": "rimraf dist/*",
     "tsc": "tsc",
     "build": "npm-run-all clean tsc",
-    "start": "node ."
+    "start": "node .",
+    "test": "cd src && tsc index.ts --module commonjs; node ./index"
   },
   "keywords": [],
   "author": "",
