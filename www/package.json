@@ -13,7 +13,7 @@
     "tsc": "tsc",
     "build": "npm-run-all clean tsc",
     "start": "node .",
-    "test": "cd src && tsc index.ts --module commonjs; node ./index"
+    "test": "cd src && tsc index.ts --module commonjs; node ./index; rm index.js"
   },
   "keywords": [],
   "author": "",
