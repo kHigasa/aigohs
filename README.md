@@ -1,6 +1,6 @@
 # ShogiAI(aigohs)
 
-Shogi Reinforcement learning AI and pure Python Shogi UI.
+Shogi Reinforcement Learning AI and pure Python Shogi UI.
 
 Copyright 2019 kHigasa. All Rights Reserved
 
