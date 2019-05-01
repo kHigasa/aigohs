@@ -6,6 +6,5 @@ before_install:
   - npm install -g typescript@1.0
 script:
   - cd www
-  - npm run build
-  - npm run clean
+  - npm test
 
